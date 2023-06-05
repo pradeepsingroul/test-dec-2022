@@ -6,7 +6,7 @@ public class StudentExceptions extends RuntimeException {
 		// TODO Auto-generated constructor stub
 	}
 	StudentExceptions(String message){
-		
+		super(message);
 	}
 
 }
